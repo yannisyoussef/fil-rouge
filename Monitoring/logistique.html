@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="logistique.css">
+</head>
+<header><img id="IT_Training1" src="C:\Users\ib\Desktop\Formation\projet fil rouge\Maquette\IT_Training1.png"></header>
+
+<body>
+    <div>
+        <h3>LOGISTIQUE</h3>
+    </div>
+
+    <fieldset>
+        <legend>&nbsp;Rechercher une Session&nbsp;</legend>
+        <label for="ville">Ville:</label>
+        <select id="ville">
+            <option value="villedefaut"></option>
+            <option value="paris">Paris</option>
+            <option value="lyon">Lyon</option>
+            <option value="bordeau">Bordeau</option>
+            <option value="toulouse">Toulouse</option>
+        </select>
+        <label for="domaine">Domaine:</label>
+        <select id="domaine">
+            <option value="domainedefaut"></option>
+            <option value="ressourceshumaines">Ressources Humaines</option>
+            <option value="management">Management</option>
+            <option value="finance">Finance</option>
+            <option value="informatique">Informatique</option>
+            <label for="theme">Thème:</label>
+        </select>
+        <label for="theme">Theme:</label>
+        <select id="theme">
+            <option value="domainedefaut"></option>
+            <option value="systemeexploitation">Système d'Exploitation</option>
+            <option value="gestionprojets">Gestion de Projets</option>
+            <option value="finance">Finance</option>
+            <option value="informatique">Informatique</option>
+        </select>
+        <label for="formation">Formation:</label>
+        <select id="formation">
+            <option value="formationdefaut"></option>
+            <option value="php">Php</option>
+            <option value="java">Java</option>
+            <option value="javascript">Javascript</option>
+            <option value="ajax">Ajax</option>
+        </select>
+        <label for="date">date:</label>
+
+        <input type="month" id="start" name="start">
+
+        <input type="submit" value="Chercher">
+        <div>
+            <p> OU </p>
+            <label for="fname">saisir l'id de la session :</label>
+            <input type="text" id="idsession" name="idsession">
+            <input type="submit" value="chercher">
+            </form>
+        </div>
+    </fieldset>
+    <section>
+        <form>
+            <label for="salle">salle:</label>
+            <select name="salle" id="salles">
+              <option value="defaut"></option>
+              <option value="tahiti">tahiti</option>
+              <option value="250b">250b</option>
+              <option value="janice">janice</option>
+            </select>
+            <input type="submit" value="choisir">
+        </form>
+        <br></br>
+    </section>
+    <section>
+        <p>Ordinateurs installés</p>
+        <div>
+            <input type="radio" id="OIoui" name="OIoui" value="oui">
+            <label for="oui">Oui</label>
+        </div>       
+        <div>
+            <input type="radio" id="OInon" name="OInon" value="non" checked>
+            <label for="non">Non</label>
+        </div>
+    </section>
+    <section>
+        <p>Formateur averti</p>
+        <div>
+            <input type="radio" id="FAoui" name="FAoui" value="oui">
+            <label for="oui">Oui</label>
+        </div>       
+        <div>
+            <input type="radio" id="FAnon" name="FAnon" value="non" checked>
+            <label for="non">Non</label>
+        </div>
+    </section>
+    <section>
+        <p>Formateur confirmation</p>
+        <div>
+            <input type="radio" id="FCoui" name="FCoui" value="oui">
+            <label for="oui">Oui</label>
+        </div>       
+        <div>
+            <input type="radio" id="FCnon" name="FCnon" value="non" checked>
+            <label for="non">Non</label>
+        </div>
+    </section>
+    <section>
+        <p>Supports imprimés</p>
+        <div>
+            <input type="radio" id="SIoui" name="SIoui" value="oui">
+            <label for="oui">Oui</label>
+        </div>       
+        <div>
+            <input type="radio" id="SInon" name="SInon" value="non" checked>
+            <label for="non">Non</label>
+        </div>
+    </section>
+    <section>
+        <p>CDs gravés</p>
+        <div>
+            <input type="radio" id="CDoui" name="CDoui" value="oui">
+            <label for="oui">Oui</label>
+        </div>       
+        <div>
+            <input type="radio" id="CDnon" name="CDnon" value="non" checked>
+            <label for="non">Non</label>
+        </div>
+    </section>
+    <section>
+        <p>Planning</p>
+        <div>
+            <input type="radio" id="Poui" name="Poui" value="oui">
+            <label for="oui">Oui</label>
+        </div>       
+        <div>
+            <input type="radio" id="Pnon" name="Pnon" value="non" checked>
+            <label for="non">Non</label>
+        </div>
+    </section>
+    <section>
+        <p>Liste des présences</p>
+        <div>
+            <input type="radio" id="LPoui" name="LPoui" value="oui">
+            <label for="oui">Oui</label>
+        </div>       
+        <div>
+            <input type="radio" id="LPnon" name="LPnon" value="non" checked>
+            <label for="non">Non</label>
+        </div>
+    </section>
+    <section>
+        <p>Tickets repas</p>
+        <div>
+            <input type="radio" id="TRoui" name="TRoui" value="oui">
+            <label for="oui">Oui</label>
+        </div>       
+        <div>
+            <input type="radio" id="TRnon" name="TRnon" value="non" checked>
+            <label for="non">Non</label>
+        </div>
+    </section>
+    <section>
+        <p>Formulaire d'évaluation</p>
+        <div>
+            <input type="radio" id="FEoui" name="FEoui" value="oui">
+            <label for="oui">Oui</label>
+        </div>       
+        <div>
+            <input type="radio" id="FEnon" name="FEnon" value="non" checked>
+            <label for="non">Non</label>
+        </div>
+    </section>
+
+</body>
+</html>

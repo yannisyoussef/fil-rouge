@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="monitoring.css">
+</head>
+<header><img id="IT_Training1" src="C:\Users\ib\Desktop\Formation\projet fil rouge\Maquette\IT_Training1.png"></header>
+
+<body>
+    <div>
+        <h3>MONITORING</h3>
+    </div>
+
+    <fieldset>
+        <legend>&nbsp;Rechercher une Session&nbsp;</legend>
+        <label for="ville">Ville:</label>
+        <select id="ville">
+            <option value="villedefaut"></option>
+            <option value="paris">Paris</option>
+            <option value="lyon">Lyon</option>
+            <option value="bordeau">Bordeau</option>
+            <option value="toulouse">Toulouse</option>
+        </select>
+        <label for="domaine">Domaine:</label>
+        <select id="domaine">
+            <option value="domainedefaut"></option>
+            <option value="ressourceshumaines">Ressources Humaines</option>
+            <option value="management">Management</option>
+            <option value="finance">Finance</option>
+            <option value="informatique">Informatique</option>
+            <label for="theme">Thème:</label>
+        </select>
+        <label for="theme">Theme:</label>
+        <select id="theme">
+            <option value="domainedefaut"></option>
+            <option value="systemeexploitation">Système d'Exploitation</option>
+            <option value="gestionprojets">Gestion de Projets</option>
+            <option value="finance">Finance</option>
+            <option value="informatique">Informatique</option>
+        </select>
+        <label for="formation">Formation:</label>
+        <select id="formation">
+            <option value="formationdefaut"></option>
+            <option value="php">Php</option>
+            <option value="java">Java</option>
+            <option value="javascript">Javascript</option>
+            <option value="ajax">Ajax</option>
+        </select>
+        <label for="date">date:</label>
+
+        <input type="month" id="start" name="start">
+
+        <input type="submit" value="Chercher">
+        <ol>liste de resultat</ol>
+        <div>
+            <p> OU </p>
+            <label for="fname">saisir l'id de la session :</label>
+            <input type="text" id="idsession" name="idsession">
+            <input type="submit" value="chercher">
+            </form>
+        </div>
+    </fieldset>
+    <div>
+        <table>
+            <thead>
+                <th>Session ID</th>
+                <th>Date</th>
+            </thead>
+            <tbody>
+                <td></td>
+            </tbody>
+        </table>
+    </div>
+    <fieldset>
+        <fieldset>
+            <legend>&nbsp;Formateur&nbsp;</legend>
+            <table>
+            <thead>
+                <th>Nom</th>
+                <th>Prénom</th>
+                <th>Email</th>
+                <th>Téléphone</th>     
+                <th>Note</th>
+                <th>Blame</th>
+                <th>Confirmation</th>              
+            </thead>
+            <tbody>
+            <tr>
+                <td><b>Martin</b></td>
+                <td><b>Julien</b></td>
+                <td>julienmartin@email.com</td>
+                <td>0611223344</td>
+                <td>8.5</td>
+                <td>0</td>
+                <td>ok</td>
+            </tr> 
+            </tbody>
+            </table>
+    </fieldset>
+    <fieldset>
+        <legend>&nbsp;Stagiaires&nbsp;</legend>
+        <table>
+        <thead>
+            <th>Nom</th>
+            <th>Prénom</th>
+            <th>Email</th>
+            <th>Téléphone</th>
+            <th>Entreprise</th>
+            <th>Présence</th>
+            <th>Evaluation</th>
+        </thead>
+        <tbody>
+        <tr>
+            <td><b>Doe</b></td>
+            <td><b>John</b></td>
+            <td>johndoe@email.com</td>
+            <td>0600000000</td>
+            <td>company</td>
+            <td>2</td>
+            <td>ok</td>
+        </tr>   
+        <tr>
+            <td><b>Martin</b></td>
+            <td><b>Jean</b></td>
+            <td>jeanmartin@comp.com</td>
+            <td>0610101010</td>
+            <td>entrepri</td>
+            <td>2</td>
+            <td>ok</td>
+        </tr>
+        <tr>
+            <td><b>Nasse</b></td>
+            <td><b>Cielu</b></td>
+            <td>bacamono@bber.com</td>
+            <td>0699966699</td>
+            <td>IQ70</td>
+            <td>1</td>
+            <td>null</td>
+        </tr>
+        </tbody>
+        </table>
+    </fieldset>
+    <fieldset>
+        <legend>&nbsp;Logistique&nbsp;</legend>
+        <table>
+            <thead>
+                <th>Elements</th>
+                <th>Validation</th>
+                <th>Confirmation</th>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Salle</td>
+                <td>ok</td>
+                <td>ok</td>
+            </tr> 
+            <tr>
+                <td>Matériel informatique</td>
+                <td>ok</td>
+                <td>ok</td>
+            </tr>
+            <tr>
+                <td>Support imprimés</td>
+                <td>ok</td>
+                <td>ok</td>
+            </tr>
+            <tr>
+                <td>Installation</td>
+                <td>ok</td>
+                <td>ok</td>
+            </tr>
+            <tr>
+                <td>Support</td>
+                <td>ok</td>
+                <td>ok</td>
+            </tr>
+            <tr>
+                <td>Logiciels</td>
+                <td>ok</td>
+                <td>ok</td>
+            </tr>
+            <tr>
+                <td>Tickets Repas</td>
+                <td>ok</td>
+                <td>ok</td>
+            </tr>
+    </fieldset>
+</body>
+
+</html>

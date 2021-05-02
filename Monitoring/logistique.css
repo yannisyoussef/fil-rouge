@@ -1,0 +1,14 @@
+@charset "UTF-8";
+header {
+	background-color: rgb(65, 29, 165);
+	border-radius: 15px 15px 0px 0px;
+	padding: 4px;
+}
+
+#IT_Training1 {
+	width: 7%;
+	height: auto;
+	/* max-width: 200px; */
+	border-radius: 15px;
+	transition: 2s transform;
+}

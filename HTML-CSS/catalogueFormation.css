@@ -1,0 +1,205 @@
+
+#entete{
+	display: flex;
+	flex-direction: row;
+	align-content: flex-end;
+}
+
+.catal, .rech{
+	border: 1px black solid;
+	
+}
+
+.description{
+	border: 1px black none;
+	background-color: orange;
+	width: 22%;
+	padding:auto;
+}
+
+ol li{
+	padding: 6px;
+}
+
+ol li a{
+	text-decoration: none;
+	color: black;
+}
+
+ol li a:hover{
+	color: rgb(250,0,0);
+}
+
+#conteneur{
+	border: 1px black solid;
+	border: none;
+	display: flex;
+	justify-content: space-around;
+}
+
+#conteneur #Element1{
+	border: 1px black solid;
+	border: none;
+	padding: 5px;
+	margin: 2px;
+	flex: 50%;
+}
+
+/*Formation Inter*/
+#conteneur #Element1 #FormInter{	
+	background-color: rgb(70,50,250);
+
+}
+
+#conteneur #Element2{
+	border: 1px black solid;
+	border: none;
+	padding: 5px;
+	margin: 2px;
+	flex: 50%;
+}
+
+/*Formation Intra*/
+
+#conteneur #Element2 #FormIntra{	
+	background-color: rgb(50,250,70);
+
+}
+
+#conteneur #Element2 p {	
+	text-align: justify;
+
+}
+
+h3{
+	text-align: center;
+}
+
+#conteneur #Element1 ul {	
+	text-align: center;
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+#conteneur #Element1 ul li{	
+	margin: 15px;
+
+}
+
+#conteneur #Element1 ul #RH{	
+	color: red;
+	border: 1px red solid;
+	border-radius: 12px;
+	padding: 5px;
+}
+
+.RHS{
+	text-decoration: none;
+	color: red;
+}
+
+#conteneur #Element1 ul #Man{	
+	color: blue;
+	border: 1px blue solid;
+	border-radius: 12px;
+	padding: 5px;
+}
+
+.Mans{
+	text-decoration: none;
+	color: blue;
+}
+
+#conteneur #Element1 ul #Fin{	
+	color: orange;
+	border: 1px orange solid;
+	border-radius: 12px;
+	padding: 5px;
+}
+
+.Fins{
+	text-decoration: none;
+	color: orange;
+}
+
+#conteneur #Element1 ul #Info{	
+	color: green;
+	border: 1px green solid;
+	border-radius: 12px;
+	padding: 4px;
+}
+
+#Info:hover{
+	background-color: rgb(0,100,0);	
+	opacity: 0.7;
+
+}
+
+#Info:active{
+	background-color: rgb(37, 41, 37);	
+	opacity: 0.7;
+}
+
+.Infos{
+	text-decoration: none;
+	color: green;
+}
+
+.Infos:hover{
+	color: white;
+}
+
+#Man:hover{
+	background-color: rgb(0,0,100);	
+	opacity: 0.7;
+
+}
+
+.Mans{
+	text-decoration: none;
+	color: blue;
+}
+
+.Mans:hover{
+	color: white;
+}
+
+#RH:hover{
+	background-color: rgb(100,0,0);	
+	opacity: 0.7;
+
+}
+
+.RHS{
+	text-decoration: none;
+	color: red;
+}
+
+.RHS:hover{
+	color: white;
+}
+
+#Fin:hover{
+	background-color: rgb(240,150,0);	
+	opacity: 0.7;
+
+}
+
+.Fins{
+	text-decoration: none;
+	color: orange;
+}
+
+.Fins:hover{
+	color: white;
+}
+
+
+
+
+
+
+
+

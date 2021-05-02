@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="monitoring.css">
+</head>
+<header><img id="IT_Training1" src="C:\Users\ib\Desktop\Formation\projet fil rouge\Maquette\IT_Training1.png"></header>
+
+<body>
+    <div>
+        <h3>NOUVELLE SESSION</h3>
+    </div>
+
+    <fieldset>
+        <legend>&nbsp;Créer une Session&nbsp;</legend>
+        <label for="ville">Ville:</label>
+        <select id="ville">
+            <option value="villedefaut"></option>
+            <option value="paris">Paris</option>
+            <option value="lyon">Lyon</option>
+            <option value="bordeau">Bordeau</option>
+            <option value="toulouse">Toulouse</option>
+        </select>
+        <label for="domaine">Domaine:</label>
+        <select id="domaine">
+            <option value="domainedefaut"></option>
+            <option value="ressourceshumaines">Ressources Humaines</option>
+            <option value="management">Management</option>
+            <option value="finance">Finance</option>
+            <option value="informatique">Informatique</option>
+            <label for="theme">Thème:</label>
+        </select>
+        <label for="theme">Theme:</label>
+        <select id="theme">
+            <option value="domainedefaut"></option>
+            <option value="systemeexploitation">Système d'Exploitation</option>
+            <option value="gestionprojets">Gestion de Projets</option>
+            <option value="finance">Finance</option>
+            <option value="informatique">Informatique</option>
+        </select>
+        <label for="formation">Formation:</label>
+        <select id="formation">
+            <option value="formationdefaut"></option>
+            <option value="php">Php</option>
+            <option value="java">Java</option>
+            <option value="javascript">Javascript</option>
+            <option value="ajax">Ajax</option>
+        </select>
+
+        <label for="date">date:</label>
+
+        <input type="date" id="date" name="date">
+        <form>
+            <p>Type de Session :</p>
+            <input type="radio" id="typeintra" name="type" value="intra">
+            <label for="intra">Intra</label>
+            <input type="radio" id="typeinter" name="type" value="inter">
+            <label for="female">Inter</label>
+        </form> 
+        
+        <div>
+            <form>
+                <label for="fname">Nombre minimum de stagiaires:</label><br>
+                <input type="text" id="minstagiaire" value="">
+                <input type="submit" value="Valider">
+            </form> 
+        </div>
+
+        <div>
+            <form>
+                <label for="fname">Nombre maximum de stagiaires:</label><br>
+                <input type="text" id="maxstagiaire" value="">
+                <input type="submit" value="Valider">
+            </form> 
+        </div>
+        <label for="formateur">Formateur:</label>
+        <select id="formateur">
+            <option value="formateurdefaut"></option>
+            <option value="1">Jean Doe</option>
+            <option value="25">Nasse Cielu</option>
+            <option value="15">Martin Jean</option>
+        </select>
+        <br></br>
+        <input type="submit" value="Créer">
+        </fieldset>
+    </body>
+</html>
